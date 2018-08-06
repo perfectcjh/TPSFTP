@@ -1,2 +1,2 @@
 # TPSFTP
-SFTP是文件传输管理
+SFTP文件传输管理
