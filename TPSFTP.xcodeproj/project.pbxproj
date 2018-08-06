@@ -26,6 +26,7 @@
 		3246267C21183BAE009E076D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 324626682118352D009E076D /* libcrypto.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		3246267D21183BAE009E076D /* libssh2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3246266A2118352D009E076D /* libssh2.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		3246267E21183BAE009E076D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 324626692118352D009E076D /* libssl.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		32462680211845FD009E076D /* FTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246267F211845FD009E076D /* FTPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 		324626682118352D009E076D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		324626692118352D009E076D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		3246266A2118352D009E076D /* libssh2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssh2.a; sourceTree = "<group>"; };
+		3246267F211845FD009E076D /* FTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		324625F9211834E8009E076D /* TPSFTPClient */ = {
 			isa = PBXGroup;
 			children = (
+				3246267F211845FD009E076D /* FTPManager.swift */,
 				324625FA2118352C009E076D /* Classes */,
 				324626122118352D009E076D /* Libraries */,
 			);
@@ -437,6 +440,7 @@
 				3246266C2118352D009E076D /* DLSFTPMakeDirectoryRequest.m in Sources */,
 				3246266D2118352D009E076D /* DLSFTPMoveRenameRequest.m in Sources */,
 				3246253F21181FD7009E076D /* ViewController.swift in Sources */,
+				32462680211845FD009E076D /* FTPManager.swift in Sources */,
 				3246266B2118352D009E076D /* DLSFTPUploadRequest.m in Sources */,
 				324626742118352D009E076D /* DLSFTPRemoveFileRequest.m in Sources */,
 				3246253D21181FD7009E076D /* AppDelegate.swift in Sources */,
